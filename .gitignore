@@ -1,5 +1,9 @@
-#ignore datasets
+# Ignore all CSVs under data/
 data/**/*.csv
+
+# EXCEPT these two
+!data/ticker_list/ASX_tickers_final.csv
+!data/ticker_list/HK_tickers_final.csv
 
 #ignore environment files
 *.env
