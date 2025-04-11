@@ -1,5 +1,8 @@
 # Ignore all CSVs under data/
-data/**/*.csv
+data/AU/company_info/*.csv
+data/AU/financial_statements/**/*.csv
+data/HK/company_info/*.csv
+data/HK/financial_statements/**/*.csv
 
 # EXCEPT these two
 !data/ticker_list/ASX_tickers_final.csv
