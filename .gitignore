@@ -1,0 +1,14 @@
+#ignore datasets
+data/**/*.csv
+
+#ignore environment files
+*.env
+
+#ignore other incomplete files
+obtain_valuations_AU.ipynb
+obtain_valuations_HK.ipynb
+data_prep_au.ipynb
+
+#ignores folders for self reference
+deprecated/
+others/
