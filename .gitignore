@@ -10,6 +10,9 @@ data/HK/financial_statements/**/*.csv
 
 #ignore environment files
 *.env
+ssvenv/
+*.egg-info/
+*.log
 
 #ignore other incomplete files
 obtain_valuations_AU.ipynb
@@ -19,3 +22,10 @@ data_prep_au.ipynb
 #ignores folders for self reference
 deprecated/
 others/
+
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
